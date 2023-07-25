@@ -63,3 +63,8 @@ h6 {
     display: flex;
   }
 }
+
+.main {
+  background-color: var(--pink);
+  overflow-x: clip;
+}
