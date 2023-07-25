@@ -1,0 +1,64 @@
+.about {
+  background-color: var(--beige);
+  padding: 50px 0 50px;
+  color: var(--gray);
+}
+
+.about__wrap {
+  display: flex;
+  align-items: center;
+}
+
+.about__content {
+  min-width: 370px;
+}
+
+.about__title {
+  font-size: 40px;
+}
+
+.about__text {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.about__list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 110px;
+  padding-bottom: 48px;
+  width: 930px;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: url('./../../img/about/icon-candler.svg');
+    width: 22px;
+    height: 30px;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 22px;
+    bottom: 9px;
+    background-color: var(--brown);
+    width: 1000%;
+    height: 1px;
+  }
+}
+
+.about__item {
+}
+
+.about__item-img {
+}
+
+.about__item-text {
+  margin-top: 10px;
+  font-size: 11px;
+}
