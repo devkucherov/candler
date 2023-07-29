@@ -20,6 +20,7 @@
 .hero__content {
   width: 370px;
   padding: 150px 0 250px;
+  z-index: 1;
 
   @media (max-width: 1000px) {
     width: 333px;
@@ -60,8 +61,6 @@
   margin-top: 15px;
 
   @media (max-width: 768px) {
-    font-size: 10px;
-    line-height: 150%;
     margin-top: 20px;
   }
 
