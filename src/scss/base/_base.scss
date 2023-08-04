@@ -73,3 +73,34 @@ h6 {
   font-size: 40px;
   margin-bottom: 15px;
 }
+
+.button {
+  background-color: var(--yellow);
+  padding: 18px 50px;
+  font-weight: 600;
+}
+
+.section--decor {
+  position: relative;
+  padding-bottom: 92px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: url('./../../img/icon-candler.svg');
+    width: 22px;
+    height: 30px;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 22px;
+    bottom: 9px;
+    background-color: var(--brown);
+    width: 1000%;
+    height: 1px;
+  }
+}
